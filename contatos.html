@@ -1,17 +1,49 @@
-<section id="contato">
-    <h2>Contato</h2>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <div class="info-contato">
-        <p><strong>📍 Endereço:</strong> Rua das Flores, 123 – Centro</p>
-        <p><strong>📞 Telefone:</strong> (85) 99999-0000</p>
-        <p><strong>📧 Email:</strong> contato@aromacafe.com</p>
-        <p><strong>⏰ Horário:</strong> Segunda a Sábado – 08h às 20h</p>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Cafeteria Aroma</title>
+</head>
 
-    <form class="form-contato">
-        <input type="text" placeholder="Seu nome" required>
-        <input type="email" placeholder="Seu email" required>
-        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
-        <button type="submit">Enviar Mensagem</button>
-    </form>
-</section>
+<body>
+
+    <header>
+        <h1>Cafeteria Aroma</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Cafeteria Aroma - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
