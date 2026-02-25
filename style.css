@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f1ea;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #8b5e3c; /* marrom elegante */
+    z-index: 1000;
+    padding: 15px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+    main {
+    padding: 40px;
+    text-align: center;
+}
+    section a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    section a:hover {
+    background-color: #5c3a21;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+    h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+    section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+   section ul {
+    list-style: none;
+    padding: 0;
+}
+section ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-size: 16px;
+}
+section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+    main {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+    footer {
+    background-color: #8b5e3c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 40px;
+}
+    nav ul li a {
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4a373; /* dourado suave */
+}
+    #contato {
+    background-color: #f5e6d3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 32px;
+    color: #4b2e2e;
+    margin-bottom: 20px;
+}
+
+.info-contato p {
+    font-size: 18px;
+    color: #5a3e36;
+    margin: 5px 0;
+}
+
+.form-contato {
+    margin-top: 30px;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a67c52;
+    border-radius: 8px;
+}
+
+.form-contato button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-contato button:hover {
+    background-color: #4b2e2e;
+}
